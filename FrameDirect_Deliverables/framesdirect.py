@@ -33,9 +33,11 @@ CHECKPOINT_FILE = "checkpoint.json"
 
 # Output folder for CSV and JSON
 OUTPUT_FOLDER = r"C:\Users\Admin\Documents\Smart_Eyewear_Choices\FrameDirect_Deliverables"
-
-# Ensure the output folder exists
 os.makedirs(OUTPUT_FOLDER, exist_ok=True)
+
+# File paths
+CSV_PATH = os.path.join(OUTPUT_FOLDER, "framesdirectdotcom_data.csv")
+JSON_PATH = os.path.join(OUTPUT_FOLDER, "framesdirectdotcom.json")
 
 
 # CHECKPOINT HANDLING
@@ -68,7 +70,7 @@ print("Installing Chrome WD")
 service = Service(ChromeDriverManager().install())
 print("Final Setup")
 driver = webdriver.Chrome(service=service, options=chrome_options)
-print("Done")
+print("Selenium setup complete.")
 
 
 # --------------------------------
@@ -84,8 +86,11 @@ eye_glasses_data = []
 page_count = 0
 
 while True:
-    page_count += 1
-    current_page = start_page + page_count - 1
+    #page_count += 1
+    #current_page = start_page + page_count - 1
+    #print(f"\n--- Scraping page {current_page} ---")
+
+    current_page = start_page + page_count
     print(f"\n--- Scraping page {current_page} ---")
 
     # === Wait for product tiles to load ===
@@ -172,17 +177,23 @@ while True:
         # === Append saved product's dictionary to the data storage list. ===
         eye_glasses_data.append(data)
 
-    # === Save checkpoint ===
+    '''# === Save checkpoint ===
+    with open(CHECKPOINT_FILE, "w", encoding="utf-8") as f:
+        json.dump({"last_page": current_page}, f)'''
+    # ------------------------------
+    # UPDATE CHECKPOINT
+    # ------------------------------
     with open(CHECKPOINT_FILE, "w", encoding="utf-8") as f:
         json.dump({"last_page": current_page}, f)
+    print(f"Checkpoint updated: last_page = {current_page}")
 
-    # === Stop if max pages reached ===
-    if page_count >= MAX_PAGES:
+    # Stop if max pages reached
+    if page_count + 1 >= MAX_PAGES:
         print(f"Reached MAX_PAGES ({MAX_PAGES}). Stopping.")
         break
 
     # === Pagination (URL-based) ===
-    next_btn = soup.find("a", {"aria-label": "next page"})
+    '''next_btn = soup.find("a", {"aria-label": "next page"})
     if next_btn and "href" in next_btn.attrs:
         next_url = next_btn["href"]
         if not next_url.startswith("http"):
@@ -192,6 +203,21 @@ while True:
         time.sleep(10)  # allow page to load
     else:
         print("No more pages found. Stopping.")
+        break'''
+    # ------------------------------
+    # NAVIGATE TO NEXT PAGE
+    # ------------------------------
+    next_btn = soup.find("a", {"aria-label": "next page"})
+    if next_btn and "href" in next_btn.attrs:
+        next_url = next_btn["href"]
+        if not next_url.startswith("http"):
+            next_url = base_url + next_url
+        print(f"Going to next page: {next_url}")
+        driver.get(next_url)
+        page_count += 1
+        time.sleep(5)
+    else:
+        print("No more pages. Stopping.")
         break
 
 # === Save results ===
@@ -222,7 +248,7 @@ else:
 # ------------------------------
 # SAVE DATA TO SPECIFIC FOLDER
 # ------------------------------
-if eye_glasses_data:
+'''if eye_glasses_data:
     # Full file paths
     csv_path = os.path.join(OUTPUT_FOLDER, "framesdirectdotcom_data.csv")
     json_path = os.path.join(OUTPUT_FOLDER, "framesdirectdotcom.json")
@@ -240,8 +266,45 @@ if eye_glasses_data:
         json.dump(eye_glasses_data, json_file, indent=4)
     print(f"✅ Saved {len(eye_glasses_data)} records to JSON at {json_path}")
 else:
+    print("⚠ No data collected. Nothing saved.")'''
+
+
+# ------------------------------
+# SAVE DATA TO SPECIFIC FOLDER WITH APPEND MODE
+# ------------------------------
+if eye_glasses_data:
+    # ---- CSV ----
+    if os.path.exists(CSV_PATH):
+        # Append without headers
+        with open(CSV_PATH, "a", newline="", encoding="utf-8") as csv_file:
+            dict_writer = csv.DictWriter(csv_file, fieldnames=eye_glasses_data[0].keys())
+            dict_writer.writerows(eye_glasses_data)
+    else:
+        # Write new file with headers
+        with open(CSV_PATH, "w", newline="", encoding="utf-8") as csv_file:
+            dict_writer = csv.DictWriter(csv_file, fieldnames=eye_glasses_data[0].keys())
+            dict_writer.writeheader()
+            dict_writer.writerows(eye_glasses_data)
+    print(f"✅ Saved {len(eye_glasses_data)} records to CSV at {CSV_PATH}")
+
+    # ---- JSON ----
+    if os.path.exists(JSON_PATH):
+        with open(JSON_PATH, "r", encoding="utf-8") as f:
+            existing_data = json.load(f)
+        existing_data.extend(eye_glasses_data)
+        with open(JSON_PATH, "w", encoding="utf-8") as f:
+            json.dump(existing_data, f, indent=4)
+    else:
+        with open(JSON_PATH, "w", encoding="utf-8") as f:
+            json.dump(eye_glasses_data, f, indent=4)
+    print(f"✅ Saved {len(eye_glasses_data)} records to JSON at {JSON_PATH}")
+else:
     print("⚠ No data collected. Nothing saved.")
+
+
+
+
 
 # close the browser
 driver.quit()
-print("Enf of Extraction")
+print("Extraction completed, Browser Closed!")

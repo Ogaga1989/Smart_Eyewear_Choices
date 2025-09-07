@@ -509,5 +509,1559 @@
         "Former_Price": null,
         "Current_Price": 479.0,
         "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB7047",
+        "Former_Price": null,
+        "Current_Price": 176.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Plank 2.0",
+        "Former_Price": null,
+        "Current_Price": 187.0,
+        "Discount": null
+    },
+    {
+        "Brand": null,
+        "Product_Name": null,
+        "Former_Price": null,
+        "Current_Price": null,
+        "Discount": null
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Socket 5.5",
+        "Former_Price": null,
+        "Current_Price": 227.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Holbrook RX",
+        "Former_Price": null,
+        "Current_Price": 187.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Wheel House",
+        "Former_Price": null,
+        "Current_Price": 242.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB8908",
+        "Former_Price": null,
+        "Current_Price": 276.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB7229",
+        "Former_Price": 222.0,
+        "Current_Price": 155.4,
+        "Discount": 30
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Pitchman R Carbon - Alternate Fit",
+        "Former_Price": null,
+        "Current_Price": 297.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB6645",
+        "Former_Price": null,
+        "Current_Price": 210.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB7260",
+        "Former_Price": null,
+        "Current_Price": 210.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB5154 Clubmaster",
+        "Former_Price": null,
+        "Current_Price": 222.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Persol",
+        "Product_Name": "PO3189V",
+        "Former_Price": 342.0,
+        "Current_Price": 171.0,
+        "Discount": 50
+    },
+    {
+        "Brand": "Burberry",
+        "Product_Name": "BE2315",
+        "Former_Price": 266.0,
+        "Current_Price": 133.0,
+        "Discount": 50
+    },
+    {
+        "Brand": "Persol",
+        "Product_Name": "PO3297V",
+        "Former_Price": null,
+        "Current_Price": 342.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Versace",
+        "Product_Name": "VE1285",
+        "Former_Price": 300.0,
+        "Current_Price": 210.0,
+        "Discount": 30
+    },
+    {
+        "Brand": "Gucci",
+        "Product_Name": "GG1340O",
+        "Former_Price": 305.0,
+        "Current_Price": 259.25,
+        "Discount": 15
+    },
+    {
+        "Brand": "Gucci",
+        "Product_Name": "GG1221O",
+        "Former_Price": 605.0,
+        "Current_Price": 514.25,
+        "Discount": 15
+    },
+    {
+        "Brand": "Kate Spade",
+        "Product_Name": "Charlee",
+        "Former_Price": 245.0,
+        "Current_Price": 171.5,
+        "Discount": 30
+    },
+    {
+        "Brand": "Kate Spade",
+        "Product_Name": "Lucyann",
+        "Former_Price": 230.0,
+        "Current_Price": 161.0,
+        "Discount": 30
+    },
+    {
+        "Brand": "Burberry",
+        "Product_Name": "BE2417",
+        "Former_Price": 327.0,
+        "Current_Price": 228.9,
+        "Discount": 30
+    },
+    {
+        "Brand": "Dolce & Gabbana",
+        "Product_Name": "DG3415",
+        "Former_Price": 335.0,
+        "Current_Price": 234.5,
+        "Discount": 30
+    },
+    {
+        "Brand": "Versace",
+        "Product_Name": "VE3373U",
+        "Former_Price": 316.0,
+        "Current_Price": 221.2,
+        "Discount": 30
+    },
+    {
+        "Brand": "RALPH by Ralph Lauren",
+        "Product_Name": "RA7158U",
+        "Former_Price": 141.0,
+        "Current_Price": 98.7,
+        "Discount": 30
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB7140",
+        "Former_Price": null,
+        "Current_Price": 237.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB6355",
+        "Former_Price": null,
+        "Current_Price": 237.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ralph Lauren",
+        "Product_Name": "RA7147",
+        "Former_Price": 141.0,
+        "Current_Price": 98.7,
+        "Discount": 30
+    },
+    {
+        "Brand": null,
+        "Product_Name": null,
+        "Former_Price": null,
+        "Current_Price": null,
+        "Discount": null
+    },
+    {
+        "Brand": "Emporio Armani",
+        "Product_Name": "EA1170",
+        "Former_Price": 183.0,
+        "Current_Price": 128.1,
+        "Discount": 30
+    },
+    {
+        "Brand": "Polo",
+        "Product_Name": "PH2083",
+        "Former_Price": 201.0,
+        "Current_Price": 140.7,
+        "Discount": 30
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB7066",
+        "Former_Price": null,
+        "Current_Price": 176.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Hyperlink",
+        "Former_Price": null,
+        "Current_Price": 187.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Pitchman - Alternate Fit",
+        "Former_Price": null,
+        "Current_Price": 255.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB7074",
+        "Former_Price": null,
+        "Current_Price": 176.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Hyperlink - Alternate Fit",
+        "Former_Price": null,
+        "Current_Price": 187.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Crosslink Zero",
+        "Former_Price": null,
+        "Current_Price": 187.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Pitchman R",
+        "Former_Price": 241.0,
+        "Current_Price": 168.7,
+        "Discount": 30
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Wingfold EVR",
+        "Former_Price": null,
+        "Current_Price": 318.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Wingfold EVS",
+        "Former_Price": null,
+        "Current_Price": 318.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Crosslink Zero - Alternate Fit",
+        "Former_Price": null,
+        "Current_Price": 187.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB3547V Oval",
+        "Former_Price": null,
+        "Current_Price": 210.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB5356",
+        "Former_Price": null,
+        "Current_Price": 222.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB6363",
+        "Former_Price": null,
+        "Current_Price": 210.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Limit Switch",
+        "Former_Price": null,
+        "Current_Price": 318.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Socket 5",
+        "Former_Price": null,
+        "Current_Price": 227.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Steel Line S",
+        "Former_Price": 193.0,
+        "Current_Price": 96.5,
+        "Discount": 50
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Marshal MNP (TruBridge)",
+        "Former_Price": null,
+        "Current_Price": 242.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB5198",
+        "Former_Price": 277.0,
+        "Current_Price": 193.9,
+        "Discount": 30
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB8416",
+        "Former_Price": null,
+        "Current_Price": 276.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB8903",
+        "Former_Price": null,
+        "Current_Price": 276.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Steel Plate",
+        "Former_Price": null,
+        "Current_Price": 255.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB6396",
+        "Former_Price": null,
+        "Current_Price": 222.0,
+        "Discount": null
+    },
+    {
+        "Brand": null,
+        "Product_Name": null,
+        "Former_Price": null,
+        "Current_Price": null,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB6397",
+        "Former_Price": 178.0,
+        "Current_Price": 89.0,
+        "Discount": 50
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB6489",
+        "Former_Price": null,
+        "Current_Price": 210.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB8953",
+        "Former_Price": 223.0,
+        "Current_Price": 111.5,
+        "Discount": 50
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB8954",
+        "Former_Price": 223.0,
+        "Current_Price": 156.1,
+        "Discount": 30
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Limit Switch 0.5",
+        "Former_Price": null,
+        "Current_Price": 318.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Gauge 3.1",
+        "Former_Price": 318.0,
+        "Current_Price": 222.6,
+        "Discount": 30
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Crosslink Youth - Alternate Fit",
+        "Former_Price": 172.0,
+        "Current_Price": 137.6,
+        "Discount": 20
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB4340V Wayfarer Ease",
+        "Former_Price": null,
+        "Current_Price": 210.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB6375",
+        "Former_Price": null,
+        "Current_Price": 189.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Surface Plate",
+        "Former_Price": null,
+        "Current_Price": 318.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Gauge 3.2 Blade",
+        "Former_Price": null,
+        "Current_Price": 318.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Gauge 7.2 Arch (TruBridge)",
+        "Former_Price": 213.0,
+        "Current_Price": 106.5,
+        "Discount": 50
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Fuller",
+        "Former_Price": null,
+        "Current_Price": 242.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Pommel",
+        "Former_Price": 228.0,
+        "Current_Price": 159.6,
+        "Discount": 30
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB3582V Round Metal II",
+        "Former_Price": null,
+        "Current_Price": 210.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB7159",
+        "Former_Price": null,
+        "Current_Price": 222.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB8955",
+        "Former_Price": 223.0,
+        "Current_Price": 111.5,
+        "Discount": 50
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Sunder",
+        "Former_Price": 280.0,
+        "Current_Price": 196.0,
+        "Discount": 30
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Base Plane",
+        "Former_Price": null,
+        "Current_Price": 255.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Chamfer Squared (TruBridge)",
+        "Former_Price": null,
+        "Current_Price": 242.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Crosslink Fit - Alternate Fit",
+        "Former_Price": null,
+        "Current_Price": 276.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB5362",
+        "Former_Price": null,
+        "Current_Price": 237.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB6414",
+        "Former_Price": null,
+        "Current_Price": 189.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB7144",
+        "Former_Price": null,
+        "Current_Price": 249.0,
+        "Discount": null
+    },
+    {
+        "Brand": null,
+        "Product_Name": null,
+        "Former_Price": null,
+        "Current_Price": null,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB8755",
+        "Former_Price": null,
+        "Current_Price": 317.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB6421",
+        "Former_Price": null,
+        "Current_Price": 210.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB7153",
+        "Former_Price": 143.0,
+        "Current_Price": 71.5,
+        "Discount": 50
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB8757",
+        "Former_Price": 263.0,
+        "Current_Price": 184.1,
+        "Discount": 30
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Cathode",
+        "Former_Price": null,
+        "Current_Price": 227.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Latch TI",
+        "Former_Price": 353.0,
+        "Current_Price": 176.5,
+        "Discount": 50
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Cartridge",
+        "Former_Price": null,
+        "Current_Price": 318.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Litebeam (Trubridge)",
+        "Former_Price": null,
+        "Current_Price": 187.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Pitchman R Carbon",
+        "Former_Price": null,
+        "Current_Price": 297.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB3947V - Round Gaze",
+        "Former_Price": null,
+        "Current_Price": 210.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Diecutter RX",
+        "Former_Price": 199.0,
+        "Current_Price": 99.5,
+        "Discount": 50
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB5387",
+        "Former_Price": null,
+        "Current_Price": 176.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB6428",
+        "Former_Price": null,
+        "Current_Price": 210.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB5296D",
+        "Former_Price": null,
+        "Current_Price": 220.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB3648V The Marshal",
+        "Former_Price": null,
+        "Current_Price": 222.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB6434",
+        "Former_Price": null,
+        "Current_Price": 210.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Metalink",
+        "Former_Price": null,
+        "Current_Price": 255.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Plungeline",
+        "Former_Price": null,
+        "Current_Price": 187.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Alias",
+        "Former_Price": null,
+        "Current_Price": 187.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Deadbolt - Ahyris Collection",
+        "Former_Price": 387.0,
+        "Current_Price": 270.9,
+        "Discount": 30
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB1971V Icons",
+        "Former_Price": 179.0,
+        "Current_Price": 89.5,
+        "Discount": 50
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB3716VM Clubmaster Metal",
+        "Former_Price": null,
+        "Current_Price": 237.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB5375",
+        "Former_Price": null,
+        "Current_Price": 222.0,
+        "Discount": null
+    },
+    {
+        "Brand": null,
+        "Product_Name": null,
+        "Former_Price": null,
+        "Current_Price": null,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB6441",
+        "Former_Price": null,
+        "Current_Price": 210.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Top Spinner 4B",
+        "Former_Price": null,
+        "Current_Price": 172.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Tie Bar 0.5",
+        "Former_Price": null,
+        "Current_Price": 387.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Stagebeam",
+        "Former_Price": 199.0,
+        "Current_Price": 99.5,
+        "Discount": 50
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB5383",
+        "Former_Price": null,
+        "Current_Price": 222.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB5383F - Alternate Fit",
+        "Former_Price": 191.0,
+        "Current_Price": 133.7,
+        "Discount": 30
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB6444",
+        "Former_Price": 176.0,
+        "Current_Price": 123.2,
+        "Discount": 30
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB6448",
+        "Former_Price": null,
+        "Current_Price": 210.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB1969V",
+        "Former_Price": 177.0,
+        "Current_Price": 88.5,
+        "Discount": 50
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB3857V Frank",
+        "Former_Price": null,
+        "Current_Price": 210.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB6519",
+        "Former_Price": 189.0,
+        "Current_Price": 94.5,
+        "Discount": 50
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB7177",
+        "Former_Price": null,
+        "Current_Price": 176.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Wingback Sq",
+        "Former_Price": null,
+        "Current_Price": 318.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB3447VM",
+        "Former_Price": null,
+        "Current_Price": 210.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB7144M",
+        "Former_Price": null,
+        "Current_Price": 290.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB8416M",
+        "Former_Price": null,
+        "Current_Price": 237.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB5393",
+        "Former_Price": null,
+        "Current_Price": 188.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Activate - Alternate Fit",
+        "Former_Price": null,
+        "Current_Price": 215.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Centerboard",
+        "Former_Price": null,
+        "Current_Price": 187.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Port Bow",
+        "Former_Price": null,
+        "Current_Price": 187.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB2180V",
+        "Former_Price": 170.0,
+        "Current_Price": 85.0,
+        "Discount": 50
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB6465 Jack",
+        "Former_Price": null,
+        "Current_Price": 210.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB6465F Jack - Alternate Fit",
+        "Former_Price": 198.0,
+        "Current_Price": 138.6,
+        "Discount": 30
+    },
+    {
+        "Brand": null,
+        "Product_Name": null,
+        "Former_Price": null,
+        "Current_Price": null,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB7185",
+        "Former_Price": null,
+        "Current_Price": 162.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB7185F - Alternate Fit",
+        "Former_Price": 153.0,
+        "Current_Price": 107.1,
+        "Discount": 30
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB8766",
+        "Former_Price": null,
+        "Current_Price": 263.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Activate",
+        "Former_Price": null,
+        "Current_Price": 227.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Crosslink - Alternate Fit",
+        "Former_Price": null,
+        "Current_Price": 187.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Top Spinner 5B",
+        "Former_Price": null,
+        "Current_Price": 172.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Fuel Line",
+        "Former_Price": 183.0,
+        "Current_Price": 91.5,
+        "Discount": 50
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Leadline RX",
+        "Former_Price": 205.0,
+        "Current_Price": 102.5,
+        "Discount": 50
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Seller",
+        "Former_Price": 318.0,
+        "Current_Price": 222.6,
+        "Discount": 30
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Spindrift RX",
+        "Former_Price": null,
+        "Current_Price": 227.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Tensile",
+        "Former_Price": null,
+        "Current_Price": 297.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Trajectory",
+        "Former_Price": null,
+        "Current_Price": 297.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Volt Drop",
+        "Former_Price": 227.0,
+        "Current_Price": 158.9,
+        "Discount": 30
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Wire Tap 2.0 RX",
+        "Former_Price": null,
+        "Current_Price": 387.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB5395",
+        "Former_Price": null,
+        "Current_Price": 210.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB5398",
+        "Former_Price": null,
+        "Current_Price": 210.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB5486",
+        "Former_Price": 198.0,
+        "Current_Price": 138.6,
+        "Discount": 30
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB6466",
+        "Former_Price": null,
+        "Current_Price": 222.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB7190",
+        "Former_Price": null,
+        "Current_Price": 162.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB7192M",
+        "Former_Price": null,
+        "Current_Price": 216.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB7244",
+        "Former_Price": 178.0,
+        "Current_Price": 89.0,
+        "Discount": 50
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB8247V",
+        "Former_Price": null,
+        "Current_Price": 479.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Extender",
+        "Former_Price": null,
+        "Current_Price": 208.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Hex Jector (TruBridge)",
+        "Former_Price": null,
+        "Current_Price": 187.0,
+        "Discount": null
+    },
+    {
+        "Brand": null,
+        "Product_Name": null,
+        "Former_Price": null,
+        "Current_Price": null,
+        "Discount": null
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Hex Jector - Alternate Fit (TruBridge)",
+        "Former_Price": null,
+        "Current_Price": 187.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Moon Shot",
+        "Former_Price": 365.0,
+        "Current_Price": 182.5,
+        "Discount": 50
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Ojector RX",
+        "Former_Price": null,
+        "Current_Price": 208.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Sobriquet",
+        "Former_Price": 365.0,
+        "Current_Price": 182.5,
+        "Discount": 50
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "NXTLVL",
+        "Former_Price": null,
+        "Current_Price": 242.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RX3681V",
+        "Former_Price": null,
+        "Current_Price": 153.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB3957V - Julie",
+        "Former_Price": 188.0,
+        "Current_Price": 94.0,
+        "Discount": 50
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB3958V",
+        "Former_Price": 179.0,
+        "Current_Price": 125.3,
+        "Discount": 30
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RX5398F - Alternate Fit",
+        "Former_Price": null,
+        "Current_Price": 198.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB5499 - Lady Burbank",
+        "Former_Price": null,
+        "Current_Price": 222.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RX7199",
+        "Former_Price": null,
+        "Current_Price": 249.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB3625V - New Aviator Optics",
+        "Former_Price": null,
+        "Current_Price": 222.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB3636V - New Caravan Optics",
+        "Former_Price": null,
+        "Current_Price": 222.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB3637V - New Round Optics",
+        "Former_Price": null,
+        "Current_Price": 210.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB5406",
+        "Former_Price": null,
+        "Current_Price": 189.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Exchange",
+        "Former_Price": null,
+        "Current_Price": 242.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB4378V",
+        "Former_Price": null,
+        "Current_Price": 176.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB5397 - Elliot Optics",
+        "Former_Price": null,
+        "Current_Price": 210.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB6472",
+        "Former_Price": null,
+        "Current_Price": 198.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB7205M - Scuderia Ferrari Collection",
+        "Former_Price": null,
+        "Current_Price": 235.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB8148V - Hexagonal Titanium",
+        "Former_Price": 452.0,
+        "Current_Price": 316.4,
+        "Discount": 30
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB8421",
+        "Former_Price": null,
+        "Current_Price": 276.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Admission",
+        "Former_Price": null,
+        "Current_Price": 187.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Dagger Board",
+        "Former_Price": 208.0,
+        "Current_Price": 145.6,
+        "Discount": 30
+    },
+    {
+        "Brand": null,
+        "Product_Name": null,
+        "Former_Price": null,
+        "Current_Price": null,
+        "Discount": null
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Futurity",
+        "Former_Price": null,
+        "Current_Price": 227.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Socket TI",
+        "Former_Price": null,
+        "Current_Price": 318.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB3698VM",
+        "Former_Price": null,
+        "Current_Price": 261.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB5397F - Elliot Optics Alternate Fit",
+        "Former_Price": null,
+        "Current_Price": 210.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Centerboard - Alternate Fit",
+        "Former_Price": null,
+        "Current_Price": 187.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "CTRLNK",
+        "Former_Price": null,
+        "Current_Price": 242.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Draw Up",
+        "Former_Price": null,
+        "Current_Price": 227.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Sway Bar",
+        "Former_Price": null,
+        "Current_Price": 387.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "The Cut",
+        "Former_Price": null,
+        "Current_Price": 172.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB3694V - Jim Optics",
+        "Former_Price": null,
+        "Current_Price": 210.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB5428",
+        "Former_Price": null,
+        "Current_Price": 222.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB6485",
+        "Former_Price": null,
+        "Current_Price": 189.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB7208",
+        "Former_Price": null,
+        "Current_Price": 249.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB7211",
+        "Former_Price": null,
+        "Current_Price": 189.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB7213M - Scuderia Ferrari Collection",
+        "Former_Price": null,
+        "Current_Price": 300.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB7216 - New Clubmaster Optics",
+        "Former_Price": null,
+        "Current_Price": 222.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB0707V",
+        "Former_Price": 210.0,
+        "Current_Price": 147.0,
+        "Discount": 30
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB8327VM",
+        "Former_Price": null,
+        "Current_Price": 325.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB6498",
+        "Former_Price": 198.0,
+        "Current_Price": 99.0,
+        "Discount": 50
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB7210",
+        "Former_Price": 222.0,
+        "Current_Price": 155.4,
+        "Discount": 30
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB0316V",
+        "Former_Price": null,
+        "Current_Price": 222.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB0840V",
+        "Former_Price": null,
+        "Current_Price": 222.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB1549",
+        "Former_Price": null,
+        "Current_Price": 122.0,
+        "Discount": null
+    },
+    {
+        "Brand": null,
+        "Product_Name": null,
+        "Former_Price": null,
+        "Current_Price": null,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB1621",
+        "Former_Price": null,
+        "Current_Price": 87.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Moonglow",
+        "Former_Price": null,
+        "Current_Price": 208.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Coupler",
+        "Former_Price": null,
+        "Current_Price": 242.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Overhead",
+        "Former_Price": null,
+        "Current_Price": 172.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Plazlink",
+        "Former_Price": null,
+        "Current_Price": 242.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Holbrook TI",
+        "Former_Price": 387.0,
+        "Current_Price": 270.9,
+        "Discount": 30
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Holbrook Low Bridge Fit",
+        "Former_Price": null,
+        "Current_Price": 187.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "HSTN",
+        "Former_Price": null,
+        "Current_Price": 208.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "HSTN Low Bridge Fit",
+        "Former_Price": null,
+        "Current_Price": 187.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Oakley",
+        "Product_Name": "Sway Bar 0.5",
+        "Former_Price": 285.0,
+        "Current_Price": 142.5,
+        "Discount": 50
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB3717 Optics",
+        "Former_Price": null,
+        "Current_Price": 222.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB5417 Optics",
+        "Former_Price": null,
+        "Current_Price": 210.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB5418 Optics",
+        "Former_Price": null,
+        "Current_Price": 210.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB6494 Optics",
+        "Former_Price": null,
+        "Current_Price": 237.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB6496 Optics",
+        "Former_Price": null,
+        "Current_Price": 210.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB6507M Optics Scuderia Ferrari Collection",
+        "Former_Price": 249.0,
+        "Current_Price": 174.3,
+        "Discount": 30
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB7214 Gina Optics",
+        "Former_Price": 210.0,
+        "Current_Price": 147.0,
+        "Discount": 30
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB7215 Erik Optics",
+        "Former_Price": 222.0,
+        "Current_Price": 155.4,
+        "Discount": 30
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB7217 Chad Optics Bio-Based",
+        "Former_Price": null,
+        "Current_Price": 189.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB7217F Chad Optics Bio-Based",
+        "Former_Price": 189.0,
+        "Current_Price": 94.5,
+        "Discount": 50
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB7218 Kristin Optics Bio-Based",
+        "Former_Price": 178.0,
+        "Current_Price": 124.6,
+        "Discount": 30
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "RB8422 Optics",
+        "Former_Price": null,
+        "Current_Price": 276.0,
+        "Discount": null
     }
 ]
