@@ -31,6 +31,13 @@ CHECKPOINT_FILE = "checkpoint.json"
 
 
 
+# Output folder for CSV and JSON
+OUTPUT_FOLDER = r"C:\Users\Admin\Documents\Smart_Eyewear_Choices\FrameDirect_Deliverables"
+
+# Ensure the output folder exists
+os.makedirs(OUTPUT_FOLDER, exist_ok=True)
+
+
 # CHECKPOINT HANDLING
 
 # Load last scraped page number from checkpoint.json (if exists)
@@ -188,7 +195,7 @@ while True:
         break
 
 # === Save results ===
-if eye_glasses_data:
+'''if eye_glasses_data:
     # save to CSV
     column_name = eye_glasses_data[0].keys()
     with open("framesdirectdotcom_data_updated.csv", mode="a", newline="", encoding="utf-8") as csv_file:
@@ -210,7 +217,30 @@ if eye_glasses_data:
         json.dump(existing_data, json_file, indent=4)
     print(f"Saved {len(eye_glasses_data)} new records to JSON")
 else:
-    print("No data collected.")
+    print("No data collected.")'''
+
+# ------------------------------
+# SAVE DATA TO SPECIFIC FOLDER
+# ------------------------------
+if eye_glasses_data:
+    # Full file paths
+    csv_path = os.path.join(OUTPUT_FOLDER, "framesdirectdotcom_data.csv")
+    json_path = os.path.join(OUTPUT_FOLDER, "framesdirectdotcom.json")
+
+    # Save CSV
+    column_names = eye_glasses_data[0].keys()
+    with open(csv_path, "w", newline="", encoding="utf-8") as csv_file:
+        dict_writer = csv.DictWriter(csv_file, fieldnames=column_names)
+        dict_writer.writeheader()
+        dict_writer.writerows(eye_glasses_data)
+    print(f"✅ Saved {len(eye_glasses_data)} records to CSV at {csv_path}")
+
+    # Save JSON
+    with open(json_path, "w", encoding="utf-8") as json_file:
+        json.dump(eye_glasses_data, json_file, indent=4)
+    print(f"✅ Saved {len(eye_glasses_data)} records to JSON at {json_path}")
+else:
+    print("⚠ No data collected. Nothing saved.")
 
 # close the browser
 driver.quit()
