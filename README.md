@@ -21,6 +21,17 @@ This Python project is a **web scraper** that extracts eyeglasses data from [Fra
 
 ---
 
+## Project Structure
+
+FramesDirect-Scraper/
+├── framesdirect.py          # Main scraper script
+├── checkpoint.json          # Last scraped page info
+├── framesdirectdotcom_data.csv
+├── framesdirectdotcom.json
+└── README.md
+└── requirement.txt          # what is needed to be installed
+
+
 ## Architecture Diagram
 
       ┌───────────────────┐
@@ -224,11 +235,3 @@ NOTES
 LICENSE
 
 This project is open-source and free to use for personal or educational purposes.
-
-
-
-
-
-
-
-
