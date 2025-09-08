@@ -2,19 +2,23 @@
 
 ## Overview
 
-This Python project is a **web scraper** that extracts eyeglasses data from [FramesDirect](https://www.framesdirect.com) to automate eyewear product collection. It gathers information on **brand, product name, former price, current price, and discount**. Data is saved in **CSV**, **JSON**, and also automatically loaded into a **PostgreSQL database** for analytics.
+This Python project is a robust web scraping solution designed to automatically extract detailed eyeglasses product information from [FramesDirect](https://www.framesdirect.com). It systematically collects key product attributes, including **brand, product name, former price, current price, and discount**, providing a structured dataset that can be used for analysis, comparison, or inventory tracking.
+
+The scraper intelligently handles **dynamic web content rendered by JavaScript**, navigates multiple pages through **URL-based pagination**, and incorporates a **checkpoint system** that allows it to resume from the last scraped page in case of interruptions. Extracted data is preserved across multiple runs by saving it in **CSV** and **JSON** formats and also directly inserted into a **PostgreSQL database** for seamless integration with data warehouses or analytical pipelines.
+
+This project is ideal for individuals or businesses seeking to monitor eyewear pricing, track product availability, or build datasets for automated decision-making in eyewear selection.
 
 ---
 
 ## Features
 
 * **Headless Chrome Scraping:** Uses Selenium in headless mode for efficiency.  
-* **Dynamic Content Handling:** Waits for `prod-holder` elements so JavaScript-rendered products are fully loaded.  
-* **Data Extraction:** Collects Brand, Product Name, Former Price, Current Price, and numeric Discount.  
-* **URL-based Pagination:** Automatically navigates product pages until the last page or a `MAX_PAGES` limit.  
+* **Dynamic Content Handling:** Waits for `prod-holder` elements ensuring JavaScript-rendered products are fully loaded.  
+* **Data Extraction:** Brand, Product Name, Former Price, Current Price, and numeric Discount.  
+* **URL-based Pagination:** Automatically navigates product pages until last page or `MAX_PAGES` limit.  
 * **Resumable Scraping:** Checkpoint system (`checkpoint.json`) resumes from last scraped page.  
 * **Data Storage:**  
-  - Appends new results to CSV (`framesdirectdotcom_data.csv`).  
+  - Appends results to CSV (`framesdirectdotcom_data.csv`).  
   - Extends JSON file (`framesdirectdotcom.json`).  
   - Inserts into PostgreSQL (`framesdirect.eyewear_products`) with a timestamp (`scraped_at`).  
 * **Error Handling:** Handles timeouts, missing values, and avoids infinite page loops.  
@@ -23,13 +27,15 @@ This Python project is a **web scraper** that extracts eyeglasses data from [Fra
 
 ## Project Structure
 
+
 FramesDirect-Scraper/
 ├── framesdirect.py          # Main scraper script
 ├── checkpoint.json          # Last scraped page info
 ├── framesdirectdotcom_data.csv
 ├── framesdirectdotcom.json
-└── README.md
-└── requirement.txt          # what is needed to be installed
+├── README.md
+└── requirements.txt         # Python dependencies
+
 
 
 ## Architecture Diagram
