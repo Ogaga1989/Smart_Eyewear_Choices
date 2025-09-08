@@ -5,6 +5,8 @@ import csv
 import json
 import os
 import re 
+from datetime import datetime
+import psycopg2
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
@@ -24,7 +26,7 @@ from selenium.common.exceptions import TimeoutException
 base_url = "https://www.framesdirect.com"
 
 # Safety stop so that scraper does not run forever when there is endless next page looping
-MAX_PAGES = 3  
+MAX_PAGES = 100
 
 # Checkpoint file
 CHECKPOINT_FILE = "checkpoint.json"
@@ -86,17 +88,13 @@ eye_glasses_data = []
 page_count = 0
 
 while True:
-    #page_count += 1
-    #current_page = start_page + page_count - 1
-    #print(f"\n--- Scraping page {current_page} ---")
-
     current_page = start_page + page_count
     print(f"\n--- Scraping page {current_page} ---")
 
     # === Wait for product tiles to load ===
     try:
         print("Waiting for product tiles to load...")
-        WebDriverWait(driver, 15).until(
+        WebDriverWait(driver,60).until(
             EC.presence_of_element_located((By.CLASS_NAME, "prod-holder"))
         )
         print("Done...Proceed to parse the data")
@@ -205,14 +203,14 @@ while True:
         print(f"Going to next page: {next_url}")
         driver.get(next_url)
         page_count += 1
-        time.sleep(5)
+        time.sleep(30)
     else:
         print("No more pages. Stopping.")
         break
 
-# ------------------------------
+# --------------------------------------------
 # SAVE DATA TO SPECIFIC FOLDER WITH APPEND MODE
-# ------------------------------
+# ---------------------------------------------
 
 if eye_glasses_data:
     # ---- CSV ----
@@ -242,6 +240,51 @@ if eye_glasses_data:
     print(f"✅ Saved {len(eye_glasses_data)} records to JSON at {JSON_PATH}")
 else:
     print("⚠ No data collected. Nothing saved.")
+
+
+
+
+# -----------------------
+# SAVE DATA TO POSTGRESQL
+# -----------------------
+if eye_glasses_data:
+    try:
+        # Connect to PostgreSQL
+        conn = psycopg2.connect(
+            dbname="EyeWearChoices_DB",
+            user="postgres",
+            password="Eng0802097@",
+            host="localhost",   # e.g., "localhost" or your warehouse endpoint
+            port="5432"         # default Postgres port
+        )
+        cur = conn.cursor()
+
+        # Insert each product into the table
+        for product in eye_glasses_data:
+            cur.execute("""
+                INSERT INTO framesdirect.eyewear_products
+                (brand, product_name, former_price, current_price, discount, scraped_at)
+                VALUES (%s, %s, %s, %s, %s, %s)
+            """, (
+                product["Brand"],
+                product["Product_Name"],
+                product["Former_Price"],
+                product["Current_Price"],
+                product["Discount"],
+                datetime.now()
+            ))
+
+        # Commit and close connection
+        conn.commit()
+        cur.close()
+        conn.close()
+        print(f"✅ Saved {len(eye_glasses_data)} records to PostgreSQL")
+
+    except Exception as e:
+        print(f"❌ Error saving to PostgreSQL: {e}")
+else:
+    print("⚠ No data collected. Nothing saved.")
+
 
 
 # close the browser
