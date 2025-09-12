@@ -26,7 +26,7 @@ from selenium.common.exceptions import TimeoutException
 base_url = "https://www.framesdirect.com"
 
 # Safety stop so that scraper does not run forever when there is endless next page looping
-MAX_PAGES = 100
+MAX_PAGES = 10
 
 # Checkpoint file
 CHECKPOINT_FILE = "checkpoint.json"
@@ -58,7 +58,7 @@ else:
 
 # SELENIUM & WEBDRIVER SETUP
 
-# Setup Chrome WB options
+# Setup Chrome WD options
 chrome_options = Options()
 chrome_options.add_argument("--headless")   
 chrome_options.add_argument("--disable-gpu")    
